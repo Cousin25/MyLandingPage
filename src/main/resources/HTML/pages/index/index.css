@@ -24,7 +24,6 @@ body {
 }
 
 
-
 .header {
   background-color: #4CAF50;
   color: white;
@@ -39,16 +38,34 @@ body {
 }
 
 
+.instagram {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 
-.fondo {
+.instagram img {
+    width: 24px;
+    height: 24px;
+}
+
+.instagram span {
+    font-size: 1em;
+}
+
+main {
   background-image: url('../../img/fondo_videos_YT.png');
-  background-size: cover;
+  background-size: cover; /*contain para que se vea bien imagen al completo*/
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 50px;
   padding-top: 50px;
   width: 100%;
-
 
   min-height: 90vh;
   display: flex;
@@ -56,8 +73,6 @@ body {
   align-items: center;
 
 }
-
-
 
 .youtube {
   background-color: #fff;
